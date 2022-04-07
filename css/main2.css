@@ -385,7 +385,7 @@ body.overflow {
 .container {
     max-width: 134rem;
     width: 100%;
-    margin: 0 auto;
+    margin: 35px auto;
     padding: 0 2rem;
 }
 
@@ -563,7 +563,7 @@ body.overflow {
     font-size: 8rem;
     line-height: 1.5;
     text-transform: uppercase;
-    color: #e7b834;
+    color: #ffffff;
     position: relative;
     font-family: 'chubb';
 }
@@ -1942,7 +1942,7 @@ body.overflow {
 
 @media (min-width: 1024px) {
     .intro-section {
-        padding: 2rem 0 25vw;
+        padding: 2rem 0 33vw;
     }
 }
 
@@ -1991,7 +1991,7 @@ body.overflow {
 
 @media (min-width: 1024px) {
     .link {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 }
 

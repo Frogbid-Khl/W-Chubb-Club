@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0GK0W94TCW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-0GK0W94TCW');
+    </script>
+    <title>Chubb Club</title>
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap"
+          rel="stylesheet">
+    <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <link href="unpkg.com/swiper%407.4.1/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="unpkg.com/regenerator-runtime%400.13.1/runtime.js"></script>
+    <script src="peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
+    <script type="text/javascript" src="unpkg.com/web3%401.2.11/dist/web3.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container"><a class="logo" href="index-2.html"><img src="images/logo.png" alt=""></a>
+            <nav class="nav js-nav">
+                <ul class="header-btn">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#game">Game</a></li>
+                    <li><a href="#instructions">Collection </a></li>
+                    <li><a href="#roadmap">ROADMAP</a></li>
+                </ul>
+                <a class="btn" href="#minting" type="button">MINT CHUBBS</a>
+                <a class="btn pl-4 ml-3" href="#minting" type="button">view on opensea</a>
+            </nav>
+            <div class="burger js-burger"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-links" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true"><a
+                        class="link" href="#" target="_blank">twitter</a><a
+                        class="link" href="#" target="_blank">discord</a></div>
+                <h1 class="main-title" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true"
+                    data-text="Chubb Club">Chubb Club</h1><span class="subtitle" data-aos="fade-up"
+                                                                  data-aos-duration="1250" data-aos-once="true">Limited 5,000 unique avatar collection. The main part of gaming metaverse</span>
+                <div class="info" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                    <div class="info__wrap">
+                        <p class="info__text">Minting is live. 0.05 ETH per Chubb</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mint-section" id="minting">
+            <div class="container">
+                <div class="mint">
+                    <div class="mint__wrap">
+                        <h2 class="mint__title section-title">Mint Cyber Chubbs</h2>
+                        <p class="mint__text">
+                            Total minted: <span class="total-minted">0 / 5000</span></p>
+                        <p class="mint__text">
+                            0.05 Eth + Gas fee <br>Max 20 Chubbs per transaction</p>
+                        <form class="form" action="#">
+                            <div class="form__wrap">
+                                <div class="form__row">
+                                    <div class="form__field">
+                                        <button class="form__btn-add input-wrap-left" type="button">-</button>
+                                        <input class="form__input mint-input" type="number" name="#" id="#" value="1">
+                                        <button class="form__btn-add input-wrap-right" type="button">+</button>
+                                    </div>
+                                    <button class="form__btn-value input-five-button" type="button">5</button>
+                                    <button class="form__btn-value input-ten-button" type="button">10</button>
+                                    <button class="form__btn-value input-twenty-button" type="button">20</button>
+                                </div>
+                                <button class="form__btn js-popup-open" type="button">Connect wallet</button>
+                                <button class="form__btn mint-button" type="button">MINT Chubbs</button>
+                            </div>
+                        </form>
+                        <div class="links-wrap"><a class="mint__link"
+                                                   href="#"
+                                                   target="_blank">View Contract </a></div>
+                        <p class="mint__descr">Please use Chrome/Firefox with metamask extension for PC or metamask app
+                            for mobile</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="avatar-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Chubb Club
+                    Avatar</h2>
+                <div class="avatar-wrap">
+                    <div class="avatar-info">
+                        <p class="sub-text" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">Your access
+                            pass to Chubbs Metaverse</p>
+                        <ul class="info-list" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true" style="color: black">
+                            <li>Only 5,000 will ever be created!</li>
+                            <li>Every Chubb will be a part of CyberChubb Metaverse Play2Earn Game.</li>
+                            <li>Every CyberChubb holder will have an exclusive early access to all community
+                                activities.
+                            </li>
+                            <li>For every CyberChubb you hold you will receive a guaranteed allocation in the seed round
+                                of our TOKEN!
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="avatar-img">
+                        <div class="card-wrap">
+                            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                                <div class="card__wrap">
+                                    <div class="card__img-wrap">
+                                        <div class="card__img"><img src="images/o01.png" alt=""></div>
+                                    </div>
+                                    <button class="card__link btn secondary" type="button">CHUBB C42-V</button>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <div class="card__wrap">
+                                    <div class="card__img-wrap">
+                                        <div class="card__img"><img src="images/o11.png" alt=""></div>
+                                    </div>
+                                    <button class="card__link btn secondary" type="button">CHUBB C41-V</button>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                                <div class="card__wrap">
+                                    <div class="card__img-wrap">
+                                        <div class="card__img"><img src="images/o21.png" alt=""></div>
+                                    </div>
+                                    <button class="card__link btn secondary" type="button">CHUBB C39-V</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="immerse-section" id="game">
+            <div class="container">
+                <div class="immerse">
+                    <div class="immerse__wrap">
+                        <div class="immerse__col">
+                            <div class="immerse__img" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
+                                <img src="images/shiaba-img.png" alt=""></div>
+                        </div>
+                        <div class="immerse__col">
+                            <div class="immerse__info">
+                                <h2 class="immerse__title section-title" data-aos="fade-up" data-aos-duration="1000"
+                                    data-aos-once="true">
+                                    Immerse yourself in <br>the Chubbs <span>game world</span></h2>
+                                <p class="immerse__text sub-text" data-aos="fade-up" data-aos-duration="1100"
+                                   data-aos-once="true">Every Chubb in the game's metaverse will be able to:</p>
+                                <ul class="immerse__list info-list" data-aos="fade-up" data-aos-duration="1200"
+                                    data-aos-once="true">
+                                    <li>Capture planets and farm tokens</li>
+                                    <li>Buy and upgrade Chubbs to explore the Chubb metaverse</li>
+                                    <li>Upgrade your Chubbs using equipment</li>
+                                    <li>Fight other Chubbs in Cyber Competitions</li>
+                                    <li>Take part in tournaments and receive a rewards in tokens</li>
+                                </ul>
+                                <a class="btn primary" href="#" target="_blank"
+                                   data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">Join twitter </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="story-section" id="about">
+            <div class="container">
+                <div class="map-wrap" style=" background-image: url('images/story-bg.jpg');">
+                    <div class="map-block map-block_story">
+                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
+                            The story</h2>
+                        <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
+                           data-aos-once="true">Hello Everyone! My name is Augusti and i am a little Chubby Kid growing
+                            up in Venice, California! Chubb Club is the metaverse's first NFT community geared towards
+                            health+fitness, promoting a positive body image, and giving back to the community! This is a
+                            charitable, supportive, and open community that will be comprised of indiivduals who want to
+                            be a better version of themsevles while still loving themselves for who they are. Growing
+                            up, i was picked on by bullies and always wished i had a space to connect with people like
+                            me. I have come to realize over the years a great way to feel good is by living a healthy
+                            lifestyle. Sure, i like to eat cookies, donuts, & cheese puffs every day but thats what
+                            makes me human and i am proud of it!</p>
+                    </div>
+                    <div class="map-block"></div>
+                </div>
+            </div>
+        </section>
+        <section class="item-section" id="equipment">
+            <div class="container">
+                <div class="item-wrap">
+                    <div class="item">
+                        <div class="item__wrap">
+                            <div class="item__img">
+                                <div class="item-slider">
+                                    <div class="item-slider js-item-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/1.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/2.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/6.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/7.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="item-img"><img src="images/8.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item__descr">
+                                <h2 class="item__title section-title" data-aos="fade-up" data-aos-duration="1100"
+                                    data-aos-once="true">Traits and Rarity</h2>
+                                <p class="item__text" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                    Now the Chubbs must defend their planet and the scientific advances they have
+                                    developed over the centuries. Each Chubb will be given a random set of high-tech
+                                    clothing and defense items in which they will defend their planet. The luckiest ones
+                                    will get unique combinations of suits that will give Chubb a 100% advantage over the
+                                    invaders. </p>
+                                <p class="item__text" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                                    We have a total of 150+ different variants of equipment and backgrounds in this
+                                    collection so each Chubb is a sight to see!</p><a class="btn primary"
+                                                                                      href="https://discord.gg/HRHRU46K2V"
+                                                                                      target="_blank" data-aos="fade-up"
+                                                                                      data-aos-duration="1400"
+                                                                                      data-aos-once="true">Join the
+                                discord</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="instruction-section" id="instructions">
+            <h2 class="section-title">Collection</h2>
+            <p class="instruction-text base-text" style="color: #000">The price of each Chubb NFT card is 0.05 Ether, they are distributed
+                on the Ethereum network, and there is a total of 5000 cards.</p>
+            <div class="instr-wrap">
+                <div class="instr">
+                    <div class="instr__wrap">
+                        <div class="instr__row" style="background-image: url('images/ss1.png');"></div>
+                        <div class="instr__row" style="background-image: url('images/ss2.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map-section" id="roadmap">
+            <div class="container">
+                <div class="map-wrap">
+                    <div class="map-block map-block_road">
+                        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">//
+                            Roadmap</h2>
+                        <p class="map-desc scroll scroll-wrap" data-aos="fade-up" data-aos-duration="1200"
+                           data-aos-once="true"></p>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                            <span class="map__percent">100%</span>
+                            <p class="map-desc">Planting Our Flag: Purchase parcels of land in the Metaverse to build an epicenter for our holders. Chubb Club game and other services to be deployed!</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                            <span class="map__percent">90%</span>
+                            <p class="map-desc">Community Giveaway 4: Our largest giveaway ever! Ever member will recieve coins, NFTs, health & fitness goods/services, & more! If you are lucky, a NFT from our unreleased drop!</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                            <span class="map__percent">80%</span>
+                            <p class="map-desc">Keep on Chubbin: Development of our next project that will include a play-to-earn health & fitness game!</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                            <span class="map__percent">70%</span>
+                            <p class="map-desc"> Community Giveaway 3: Bigger than Big giveaway of SOL + health & fitness goods/services to community members</p>
+                        </div>
+                        <div class="map__item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                            <span class="map__percent">60%</span>
+                            <p class="map-desc"> Chubb Club Scolarship: A rondomly selected holder will recieve a full ride scholarship valid for any univesity or educational purposes</p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="map-block map-block_fits">
+                        <div class="map" style="margin-top: 105px">
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                                <span class="map__percent">50%</span>
+                                <p class="map-desc"> Community Giveaway 2: Even bigger giveaway of SOL + health &
+                                    fitness goods/services to community members</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+                                <span class="map__percent">40%</span>
+                                <p class="map-desc"> Im Sexy And I Know It: Custom merch with your unique Chubb given
+                                    away to randomly selected holders - Begin Development for the Chubb Mart so all
+                                    holders can soon order theirs too!</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1300" data-aos-once="true">
+                                <span class="map__percent">30%</span>
+                                <p class="map-desc"> Community Giveaway 1: Massive giveaway of SOL + health & fitness
+                                    goods/services to community members</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
+                                <span class="map__percent">20%</span>
+                                <p class="map-desc"> The Candy shop is Open: Community rewards for Chubb Club Members
+                                    enagaged in Discord, Twitter, & Instagram.</p>
+                            </div>
+                            <div class="map__item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                                <span class="map__percent">10%</span>
+                                <p class="map-desc"> Get Back in the Gym: We can finally afford a gym membership,
+                                    randomly selected Chubb Club members will get one too!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <h2 class="section-title">FAQ</h2>
+                <div class="accordion">
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">What is Cyber Chubbs?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">Randomly generated Chubb collectibles of various rarity living on
+                                the Ethereum blockchain as ERC-721 tokens. Chubbs will become a part of NFT game
+                                metaverse soon!</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">How do I purchase CyberChubbs?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">CyberChubbs will be available for purchase on our website through
+                                an initial drop.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">When do CyberChubbs launch?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">The launch date is September 7th, more details coming soon.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">How much will it cost to mint CyberChubb?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">It will only cost 0.05 ETH to mint each of 5,000 CyberChubbs
+                                available in the Metaverse!.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">How many CyberChubbs can I mint?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">A maximum of 20 CyberChubbs can be minted per transaction. You
+                                can, however, execute as many transactions as you like if you really want to be the life
+                                of the party.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__title-wrap">
+                            <h3 class="accordion__title">Secondary Market Royalties?</h3>
+                            <div class="accordion__icon"></div>
+                        </div>
+                        <div class="accordion__content">
+                            <p class="accordion__desc">We want to encourage trading and will set royalties at 2.5%.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-section">
+            <div class="container"><img src="images/bottom-bg.png" alt="">
+                <div class="bot-content">
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">GO CHUBBS!</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">HODL!</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">To infinity and beyond!</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">I'll be back</span></div>
+                    </div>
+                    <div class="bot-block">
+                        <div class="bot-block-wrap"><span style="font-family: chubb">may the Chubb be with you</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-head"><a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+                <nav class="nav"><span class="nav-title mr-3">Menu</span>
+                    <ul >
+                        <li><a href="#about" style="color: white">ABOUT</a></li>
+                        <li><a href="#game" style="color: white">Game</a></li>
+                        <li><a href="#instructions" style="color: white">Collection</a></li>
+                        <li><a href="#roadmap" style="color: white">ROADMAP</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copyright">Copyright ©CHUBBCLUB. All rights reserved. Developed By NFTHULK</p>
+        </div>
+    </footer>
+    <div class="mask js-mask"></div>
+    <div class="popup js-popup">
+        <div class="popup__wrap">
+            <h3 class="popup__title">Mint error</h3>
+            <button class="popup__close js-popup-close" type="button"></button>
+            <div class="popup__body">
+                <p class="insufficient-funds">Insufficient funds. Check your wallet balance.</p>
+                <p class="funds-need"></p>
+                <p class="wallet-address"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="unpkg.com/swiper%407.4.1/swiper-bundle.min.js"></script>
+<script src="ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
